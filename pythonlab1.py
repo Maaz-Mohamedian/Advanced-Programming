@@ -2,13 +2,13 @@ try:
    a = float(input("Enter first number: "))
    b = float(input("Enter second number: "))
 
-  print(f"Sum: {a + b} ")
-  print(f"difference: {a - b} ")
-  print(f"product: {a * b} ")
+   print(f"Sum: {a + b} ")
+   print(f"difference: {a - b} ")
+   print(f"product: {a * b} ")
 
-  if b != 0:
+   if b != 0:
      print(f"Division: {a / b:.2f}")
-  else:
+   else:
      print("Error: Division by zero is not allowed.")
 
 except ValueError:
